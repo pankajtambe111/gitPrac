@@ -1,0 +1,20 @@
+.cc{
+	background: red;
+	text-transform: lowercase;
+}
+
+.tr{
+	height: 500px;
+	width: 500px;
+	background: red;
+	background-image: url("../imgs/p1.jpg");
+	background-size: cover;
+}
+
+span{
+	background: yellow;
+	margin: 25px;
+	height: 20px;
+	width: 200px;
+
+}
