@@ -842,23 +842,8 @@ function revArr(arr){
 var t= 'How to remove spaces  from    '
 console.log(t.trim().split(" ").join(''))
 */
-"use sctict"
 
-function foo1()
-{
-  return {
-      bar: "hello"
-  };
+for (let i = 0; i < 5; i++) {
+	setTimeout(function() { console.log(i); }, i * 1000 );
+	
 }
-
-function foo2()
-{
-  return
-  {
-      bar: "hello"
-  };
-}
-
-console.log(foo1());
-console.log(foo2());
-
